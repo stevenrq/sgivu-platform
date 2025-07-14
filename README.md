@@ -32,6 +32,7 @@ Más que un proyecto de grado, SGIVU es un caso de estudio sobre cómo aplicar l
   - OAuth2/JWT (Seguridad)
 - **Resilience4j:** Circuit breakers y tolerancia a fallos
 - **Micrometer + Zipkin:** Trazabilidad distribuida
+- **PostgreSQL:** Base de datos relacional
 - **MySQL:** Base de datos relacional
 
 #### Frontend
@@ -64,7 +65,8 @@ Más que un proyecto de grado, SGIVU es un caso de estudio sobre cómo aplicar l
 
 - **Java:** JDK 17 o superior
 - **Node.js:** v18 o superior
-- **MySQL:** 8.0 o superior (opcional si se usa Docker)
+- **PostgreSQL:** 16 o superior
+- **MYSQL:** 8.0 o superior (opcional si se usa Docker)
 - **Maven:** 3.6 o superior
 
 ### Configuración de Variables de Entorno
@@ -75,7 +77,7 @@ Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
 
 # Configuración de base de datos
 DB_HOST=localhost
-DB_PORT=3306
+DB_PORT=<custom-port>
 DB_NAME=sgivu_db
 DB_USERNAME=sgivu_user
 DB_PASSWORD=secure_password
