@@ -5,14 +5,14 @@
 
 Este proyecto nació de una necesidad real observada en la microempresa Alquiler Doble AA SAS, donde todo el ciclo de vida de la compra y venta de motocicletas usadas se gestionaba de forma manual. Este método, aunque funcional, presentaba desafíos en cuanto a eficiencia, trazabilidad de la información y escalabilidad del negocio.
 
-SGIVU es la respuesta a ese desafío. Se ha diseñado como una plataforma integral, construida sobre una arquitectura de microservicios resiliente y nativa de la nube, para automatizar y optimizar cada etapa del proceso: desde la adquisición y documentación de un vehículo hasta su mantenimiento, venta y la generación de reportes estratégicos.
+SGIVU es la respuesta a ese desafío. Se ha diseñado como una plataforma integral, construida sobre una arquitectura de microservicios resiliente y nativa de la nube, para automatizar y optimizar cada etapa del proceso: desde la adquisición y documentación de un vehículo hasta su mantenimiento, venta, generación de reportes estratégicos y predicción de demanda.
 
 Más que un proyecto de grado, SGIVU es un caso de estudio sobre cómo aplicar las mejores prácticas de la ingeniería de software moderna para resolver problemas de negocio tangibles.
 
 ## Tabla de Contenidos
 
 - [Tecnologías y Arquitectura](#tecnologías-y-arquitectura)
-- [Instalación y Requisitos Previos](#instalación-y-requisitos-previos)
+- [Requisitos Previos](#requisitos-previos)
 - [Contribuciones](#contribuciones)
 - [Licencia y Créditos](#licencia-y-créditos)
 - [Contacto](#contacto)
@@ -23,13 +23,14 @@ Más que un proyecto de grado, SGIVU es un caso de estudio sobre cómo aplicar l
 
 #### Backend
 
-- **Java:** 17
+- **Java:** 21
 - **Spring Boot:** 3
 - **Spring Cloud:** 2025
-  - Eureka (Descubrimiento de servicios)
   - Config Server (Configuración centralizada)
-  - Gateway (Enrutamiento y balanceo)
+  - Eureka (Descubrimiento de servicios)
   - OAuth2/JWT (Seguridad)
+  - Authorization Server (Seguridad)
+  - Gateway (Enrutamiento y balanceo)
 - **Resilience4j:** Circuit breakers y tolerancia a fallos
 - **Micrometer + Zipkin:** Trazabilidad distribuida
 - **PostgreSQL:** Base de datos relacional
@@ -59,48 +60,31 @@ Más que un proyecto de grado, SGIVU es un caso de estudio sobre cómo aplicar l
 - **Single Page Application (SPA):** Frontend Angular con carga dinámica
 - **Modelo-Vista-Controlador (MVC):** Separación de responsabilidades en el backend
 
-## Instalación y Requisitos Previos
+## Requisitos Previos
 
 ### Requisitos
 
-- **Java:** JDK 17 o superior
-- **Node.js:** v18 o superior
-- **PostgreSQL:** 16 o superior
-- **MYSQL:** 8.0 o superior (opcional si se usa Docker)
-- **Maven:** 3.6 o superior
+- **Java:**
+- **Node.js:**
+- **PostgreSQL:**
+- **MYSQL:**
+- **Maven:**
+- **Docker**
 
-### Configuración de Variables de Entorno
+### Enlaces a los repositorios
 
-Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
-
-```bash
-
-# Configuración de base de datos
-DB_HOST=localhost
-DB_PORT=<custom-port>
-DB_NAME=sgivu_db
-DB_USERNAME=sgivu_user
-DB_PASSWORD=secure_password
-
-# Claves de seguridad
-SERVICE_INTERNAL_SECRET_KEY=your_internal_service_secret_key
-```
-
-### Enlaces a los repositorios (orden de ejecución)
-
-1. [sgivu-zipkin](https://github.com/stevenrq/sgivu-zipkin)
-2. [sgivu-config-repo](https://github.com/stevenrq/sgivu-config-repo)
-3. [sgivu-config](https://github.com/stevenrq/sgivu-config)
-4. [sgivu-discovery](https://github.com/stevenrq/sgivu-discovery)
-5. [sgivu-auth](https://github.com/stevenrq/sgivu-auth)
-6. [sgivu-user](https://github.com/stevenrq/sgivu-user)
-7. [sgivu-gateway](https://github.com/stevenrq/sgivu-gateway)
+1. [sgivu-config-repo](https://github.com/stevenrq/sgivu-config-repo)
+2. [sgivu-config](https://github.com/stevenrq/sgivu-config)
+3. [sgivu-discovery](https://github.com/stevenrq/sgivu-discovery)
+4. [sgivu-auth](https://github.com/stevenrq/sgivu-auth)
+5. [sgivu-user](https://github.com/stevenrq/sgivu-user)
+6. [sgivu-gateway](https://github.com/stevenrq/sgivu-gateway)
 
 ### Clonar el Repositorio
 
 ```bash
-git clone https://github.com/stevenrq/repository-name.git
-cd repository-name
+git clone https://github.com/stevenrq/nombre-repo.git
+cd nombre-repo
 ```
 
 ## Contribuciones
@@ -142,15 +126,9 @@ Tipos comunes:
 
 Este proyecto está licenciado bajo la Licencia MIT.
 
-### Autores
+### Autor
 
 - Steven Ricardo Quiñones
-
-### Agradecimientos
-
-- Spring Team
-- Angular Team
-- Netflix OSS Team
 
 ## Contacto
 
@@ -162,4 +140,4 @@ Para consultas o soporte:
 
 ---
 
-© 2025 SGIVU Team. Todos los derechos reservados.
+© 2025 Equipo SGIVU. Todos los derechos reservados.
