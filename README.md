@@ -26,15 +26,15 @@ Más que un proyecto de grado, SGIVU es un caso de estudio sobre cómo aplicar l
 - **Java:** 21
 - **Spring Boot:** 3
 - **Spring Cloud:** 2025
-  - Config Server (Configuración centralizada)
-  - Eureka (Descubrimiento de servicios)
+  - Spring Cloud Config Server (Configuración centralizada)
+  - Spirng Cloud Netflix Eureka (Descubrimiento de servicios)
+  - Spring Authorization Server (Proveedor de identidad)
   - OAuth2/JWT (Seguridad)
-  - Authorization Server (Seguridad)
-  - Gateway (Enrutamiento y balanceo)
+  - Spring Cloud Gateway (Enrutamiento y balanceo)
 - **Resilience4j:** Circuit breakers y tolerancia a fallos
 - **Micrometer + Zipkin:** Trazabilidad distribuida
-- **PostgreSQL:** Base de datos relacional
 - **MySQL:** Base de datos relacional
+- **PostgreSQL:** Base de datos relacional
 
 #### Frontend
 
@@ -45,9 +45,9 @@ Más que un proyecto de grado, SGIVU es un caso de estudio sobre cómo aplicar l
 
 #### DevOps
 
-- **Docker:** Contenedores y orquestación
-- **AWS:** EC2, RDS, S3
 - **Maven:** Gestión de dependencias y construcción
+- **Docker:** Contenedores y orquestación
+- **AWS:** RDS, EC2, S3
 
 ### Patrones Implementados
 
@@ -66,19 +66,20 @@ Más que un proyecto de grado, SGIVU es un caso de estudio sobre cómo aplicar l
 
 - **Java:**
 - **Node.js:**
-- **PostgreSQL:**
 - **MYSQL:**
+- **PostgreSQL:**
 - **Maven:**
 - **Docker**
 
 ### Enlaces a los repositorios
-
-1. [sgivu-config-repo](https://github.com/stevenrq/sgivu-config-repo)
-2. [sgivu-config](https://github.com/stevenrq/sgivu-config)
-3. [sgivu-discovery](https://github.com/stevenrq/sgivu-discovery)
-4. [sgivu-auth](https://github.com/stevenrq/sgivu-auth)
-5. [sgivu-user](https://github.com/stevenrq/sgivu-user)
-6. [sgivu-gateway](https://github.com/stevenrq/sgivu-gateway)
+1. [sgivu-docker-compose](https://github.com/stevenrq/sgivu-docker-compose)
+2. [sgivu-config-repo](https://github.com/stevenrq/sgivu-config-repo)
+3. [sgivu-config](https://github.com/stevenrq/sgivu-config)
+4. [sgivu-discovery](https://github.com/stevenrq/sgivu-discovery)
+5. [sgivu-auth](https://github.com/stevenrq/sgivu-auth)
+6. [sgivu-user](https://github.com/stevenrq/sgivu-user)
+7. [sgivu-gateway](https://github.com/stevenrq/sgivu-gateway)
+8. [sgivu-frontend](https://github.com/stevenrq/sgivu-frontend)
 
 ### Clonar el Repositorio
 
@@ -140,4 +141,4 @@ Para consultas o soporte:
 
 ---
 
-© 2025 Equipo SGIVU. Todos los derechos reservados.
+© 2025
