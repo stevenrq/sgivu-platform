@@ -1,5 +1,5 @@
 
-# Sistema de Gestión de Inventario de Vehículos Usados (SGIVU)
+# Sistema de Gestión de Inventario de Vehículos Usados con Predicción de Demanda (SGIVU)
 
 ![Java](https://img.shields.io/badge/Java-17-blue) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-brightgreen) ![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-2025-brightgreen) ![Angular](https://img.shields.io/badge/Angular-20-red) ![Docker](https://img.shields.io/badge/Docker-ready-blue) ![AWS](https://img.shields.io/badge/AWS-ready-orange) ![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 
