@@ -64,12 +64,12 @@ Más que un proyecto de grado, SGIVU es un caso de estudio sobre cómo aplicar l
 
 ### Requisitos
 
-- **Java:**
+- **Java**
 - **Python**
-- **Node.js:**
-- **MYSQL:**
-- **PostgreSQL:**
-- **Maven:**
+- **Node.js**
+- **MYSQL**
+- **PostgreSQL**
+- **Maven**
 - **Docker**
 
 ### Enlaces a los repositorios
