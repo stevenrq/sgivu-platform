@@ -81,8 +81,9 @@ Más que un proyecto de grado, SGIVU es un caso de estudio sobre cómo aplicar l
 7. [sgivu-client](https://github.com/stevenrq/sgivu-client)
 8. [sgivu-vehicle](https://github.com/stevenrq/sgivu-vehicle)
 9. [sgivu-purchase-sale](https://github.com/stevenrq/sgivu-purchase-sale)
-10. [sgivu-gateway](https://github.com/stevenrq/sgivu-gateway)
-11. [sgivu-frontend](https://github.com/stevenrq/sgivu-frontend)
+10. [sgivu-ml](https://github.com/stevenrq/sgivu-ml)
+11. [sgivu-gateway](https://github.com/stevenrq/sgivu-gateway)
+12. [sgivu-frontend](https://github.com/stevenrq/sgivu-frontend)
 
 ### Clonar el Repositorio
 
