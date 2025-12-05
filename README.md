@@ -65,6 +65,7 @@ Más que un proyecto de grado, SGIVU es un caso de estudio sobre cómo aplicar l
 ### Requisitos
 
 - **Java:**
+- **Python**
 - **Node.js:**
 - **MYSQL:**
 - **PostgreSQL:**
